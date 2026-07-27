@@ -24,16 +24,21 @@ A production-ready REST API built with **FastAPI**, **PyTorch**, and **Docker** 
 
 ## Bash
 docker build -t bilingual-sentiment-api .
+
 Run the container:
 
 ## Bash
 docker run -d -p 8000:8000 --name sentiment-app bilingual-sentiment-api
+
 Access the interactive API docs:
+
 Open http://localhost:8000/docs in your browser.
 
 ## 🧪 Example API Request & Response
 Request
+
 Bash
+
 curl -X POST "http://localhost:8000/predict" \
      -H "Content-Type: application/json" \
      -d '{"text": "bohat achi service hai, mazeedar food"}'
