@@ -20,7 +20,7 @@ A production-ready REST API built with **FastAPI**, **PyTorch**, and **Docker** 
    git clone [https://github.com/your-username/bilingual-sentiment-api.git](https://github.com/your-username/bilingual-sentiment-api.git)
    cd bilingual-sentiment-api
 
-   Build the Docker image:
+## Build the Docker Image: 
 
 ## Bash
 docker build -t bilingual-sentiment-api .
