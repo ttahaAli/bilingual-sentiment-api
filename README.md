@@ -17,7 +17,7 @@ A production-ready REST API built with **FastAPI**, **PyTorch**, and **Docker** 
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/your-username/bilingual-sentiment-api.git](https://github.com/ttahaAli/bilingual-sentiment-api.git)
+   git clone https://github.com/ttahaAli/bilingual-sentiment-api.git
    cd bilingual-sentiment-api
 
 ## Build the Docker Image: 
